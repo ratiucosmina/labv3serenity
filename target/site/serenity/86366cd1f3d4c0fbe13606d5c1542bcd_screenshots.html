@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="c7ea662a7b01eb396f1126a0dc6d5d33.html">Search By Keyword Story Ddt</a>
+                > <a
+                    href="86366cd1f3d4c0fbe13606d5c1542bcd.html">Search wiki by keyword test DDT </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="5f5dee50b3955739bfb580c79f480d2e.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-05-2019 17:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search By Keyword Story Ddt </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="bd150637714b3470bfcc2ecb46bd9c91.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search Wiki By Keyword Test Ddt
+                                    <span class="related-issue-title">(#WIKI-1)</span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Is the home page<br>Looks for: &lt;Name&gt;<br>Should see definition: Strong affection.</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="960fd8aa6dced1753ae1479e0c032acf.png" title="Is the home page" width="960"/>
+                <img src="0203c5e74581cef5094b046befba9f18.png" title="Looks for: love" width="960"/>
+                <img src="scaled_19a9cf0d918726177025f5aa172ed425.png" title="Enters: love" width="960"/>
+                <img src="scaled_ffee20067b02354dfb871bb180ec5917.png" title="Starts search" width="960"/>
+                <img src="scaled_d4bf2201214c93fd420a419f8e3762c7.png" title="Starts search" width="960"/>
+                <img src="0203c5e74581cef5094b046befba9f18.png" title="Should see definition: Strong affection." width="960"/>
+                <img src="scaled_a825848e42978e3fab8e6ed1723fc584.png" title="Is the home page" width="960"/>
+                <img src="a3739cba7ca666955cdc31359dd908fb.png" title="Looks for: child" width="960"/>
+                <img src="scaled_864c4064fb344cf6a545eb3d2e7939fc.png" title="Enters: child" width="960"/>
+                <img src="scaled_70b6d068d969a282a02fb5996f7932fb.png" title="Starts search" width="960"/>
+                <img src="37d09e600e53005ef63a0a43228b08e0.png" title="Starts search" width="960"/>
+                <img src="a3739cba7ca666955cdc31359dd908fb.png" title="Should see definition: A person who has not yet reached adulthood" width="960"/>
+                <img src="960fd8aa6dced1753ae1479e0c032acf.png" title="Is the home page" width="960"/>
+                <img src="scaled_273ea84b5f7b28a93a5eff3e3a3c0894.png" title="Looks for: happiness" width="960"/>
+                <img src="d4f25505748946d96e750e422e0c8c25.png" title="Enters: happiness" width="960"/>
+                <img src="scaled_4f00d99f5c3740c18830dc4bba945c98.png" title="Starts search" width="960"/>
+                <img src="273ea84b5f7b28a93a5eff3e3a3c0894.png" title="Starts search" width="960"/>
+                <img src="273ea84b5f7b28a93a5eff3e3a3c0894.png" title="Should see definition: The emotion of being happy; joy." width="960"/>
+                <img src="a825848e42978e3fab8e6ed1723fc584.png" title="Is the home page" width="960"/>
+                <img src="scaled_62d4cf75a2e1576970ffd766c4e619a9.png" title="Looks for: king" width="960"/>
+                <img src="scaled_79c1982ef68f4f3fe5f9471b0280c59d.png" title="Enters: king" width="960"/>
+                <img src="scaled_8df31576fea5be5dd26381caa9197055.png" title="Starts search" width="960"/>
+                <img src="scaled_2400d2988bf37a7f7038ab56b250dcd2.png" title="Starts search" width="960"/>
+                <img src="62d4cf75a2e1576970ffd766c4e619a9.png" title="Should see definition: A male monarch; a man who heads a monarchy. If it's an absolute monarchy" width="960"/>
+                <img src="960fd8aa6dced1753ae1479e0c032acf.png" title="Is the home page" width="960"/>
+                <img src="scaled_1b05ac9eca65830796ff7c6874e98e7d.png" title="Looks for: gorge" width="960"/>
+                <img src="scaled_9b4a0c45fcb2d17c4694ddc24a7496f4.png" title="Enters: gorge" width="960"/>
+                <img src="scaled_0980e22942aeb080408dcaf17d71ee80.png" title="Starts search" width="960"/>
+                <img src="scaled_eb5a8717ab304c04c2fe6f510353d249.png" title="Starts search" width="960"/>
+                <img src="1b05ac9eca65830796ff7c6874e98e7d.png" title="Should see definition: The front aspect of the neck; the outside of the throat.: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story ddt","Search wiki by keyword test DDT","SUCCESS","2019-05-06T17:06:17.573+03:00","0.0","41.77"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2019-05-06T17:08:04.779+03:00","0.0","9.08"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2019-05-06T17:07:55.541+03:00","0.0","8.7"
+"Search by keyword story","Searching by keyword brain should display the corresponding article","SUCCESS","2019-05-06T17:07:46.295+03:00","0.0","9.11"
+"Search by keyword story","Searching by keyword sparkle should display the corresponding article","SUCCESS","2019-05-06T17:07:36.340+03:00","0.0","9.53"

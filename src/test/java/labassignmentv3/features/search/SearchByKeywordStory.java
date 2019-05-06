@@ -37,6 +37,20 @@ public class SearchByKeywordStory {
         anna.should_see_definition("An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.");
     }
 
+    @Test
+    public void searching_by_keyword_sparkle_should_display_the_corresponding_article() {
+        anna.is_the_home_page();
+        anna.looks_for("sparkly");
+        anna.should_see_definition("giving off sparks, or small flashes of light; glittery");
+    }
+
+    @Test
+    public void searching_by_keyword_brain_should_display_the_corresponding_article() {
+        anna.is_the_home_page();
+        anna.looks_for("brain");
+        anna.should_see_definition("The control center of the central nervous system of an animal located in the skull which is responsible for perception, cognition, attention, memory, emotion, and action.");
+    }
+
     @Pending @Test
     public void searching_by_ambiguious_keyword_should_display_the_disambiguation_page() {
     }
